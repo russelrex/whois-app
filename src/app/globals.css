@@ -26,8 +26,47 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+html {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+button {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 64px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 64px;
+  color: black;
+}
+
+.table-auto {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-auto th,
+.table-auto td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.eye-icon {
+  cursor: pointer;
 }
