@@ -3,7 +3,7 @@
 Open terminal and clone the repository
 
 ```bash
-git clone <WEB URL to the repository>
+git clone https://github.com/russelrex23/whois-app.git
 ```
 
 CD to the folder and run
